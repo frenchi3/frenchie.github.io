@@ -1,0 +1,24 @@
+title: Labella
+theme: jekyll-theme-tactile
+url: https://frenchi3.github.io
+repository: frenchi3/frenchi3.github.io
+author: frenchi3
+collections:
+  news:
+    output: true
+    permalink: /:collection/:year-:month-:day-:title
+defaults:
+  - scope:
+      type: "news"
+    values:
+      layout: default
+plugins:
+  - jekyll-feed
+feed:
+  path: /tmp/unused.xml
+  collections:
+    news:
+      path: "/feed.xml"
+logo: 
+image: 
+latest_release: 89.0.4389.100
