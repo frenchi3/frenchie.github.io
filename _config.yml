@@ -1,7 +1,7 @@
-title: 
+title: Labella
 theme: jekyll-theme-tactile
-url: 
-repository: frenchi3.github.io
+url: https://frenchi3.github.io
+repository: frenchi3/frenchi3.github.io
 author: frenchi3
 collections:
   news:
